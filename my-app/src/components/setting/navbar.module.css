@@ -1,0 +1,27 @@
+.nav {
+    grid-area: n;
+    background: rgb(41, 99, 153);
+}
+
+.nav ol li:last-child {
+    margin: 10px 0 0 0;
+}
+
+.nav li {
+    list-style-type: none;
+
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.nav li a:hover {
+    color: yellow;
+}
+
+.nav li a .active {
+    color: yellow;
+}
